@@ -1,0 +1,27 @@
+{
+  "name": "cloudflare-workers-webpack-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wrangler-dev": "cd dist && wrangler dev",
+    "webpack-dev": "webpack --watch --config webpack.config.dev.js",
+    "webpack-build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierBover/cloudflare-workers-webpack-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierBover/cloudflare-workers-webpack-setup/issues"
+  },
+  "homepage": "https://github.com/PierBover/cloudflare-workers-webpack-setup#readme",
+  "dependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
